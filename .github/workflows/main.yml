@@ -1,0 +1,10 @@
+name:step Type
+
+on:
+  workflow_dispatch
+jobs:
+  job_1:
+    runs_on:ubuntu-24.04
+    setps:
+      - run: echo"Hello world!"
+      
